@@ -1,0 +1,77 @@
+{
+    "routes": [
+      {
+        "from": "Lukla",
+        "to": "Phakding",
+        "coordinates": {
+          "from": [27.6864, 86.7294],
+          "to": [27.7403, 86.7138]
+        }
+      },
+      {
+        "from": "Phakding",
+        "to": "Namche Bazaar",
+        "coordinates": {
+          "from": [27.7403, 86.7138],
+          "to": [27.8058, 86.7149]
+        }
+      },
+      {
+        "from": "Namche Bazaar",
+        "to": "Tengboche",
+        "coordinates": {
+          "from": [27.8058, 86.7149],
+          "to": [27.8370, 86.7637]
+        }
+      },
+      {
+        "from": "Tengboche",
+        "to": "Dingboche",
+        "coordinates": {
+          "from": [27.8370, 86.7637],
+          "to": [27.8917, 86.8252]
+        }
+      },
+      {
+        "from": "Dingboche",
+        "to": "Lobuche",
+        "coordinates": {
+          "from": [27.8917, 86.8252],
+          "to": [27.9468, 86.8103]
+        }
+      },
+      {
+        "from": "Lobuche",
+        "to": "Gorak Shep",
+        "coordinates": {
+          "from": [27.9468, 86.8103],
+          "to": [28.0037, 86.8528]
+        }
+      },
+      {
+        "from": "Gorak Shep",
+        "to": "Everest Base Camp (EBC)",
+        "coordinates": {
+          "from": [28.0037, 86.8528],
+          "to": [28.0043, 86.8520]
+        }
+      },
+      {
+        "from": "Everest Base Camp (EBC)",
+        "to": "Kala Patthar",
+        "coordinates": {
+          "from": [28.0043, 86.8520],
+          "to": [27.9997, 86.8285]
+        }
+      },
+      {
+        "from": "Kala Patthar",
+        "to": "Pheriche",
+        "coordinates": {
+          "from": [27.9997, 86.8285],
+          "to": [27.8853, 86.8127]
+        }
+      }
+    ]
+  }
+  
