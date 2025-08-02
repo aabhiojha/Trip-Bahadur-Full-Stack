@@ -4,6 +4,7 @@ import { useNavigate } from "react-router-dom";
 import { RiVoiceprintFill } from "react-icons/ri";
 import Response from "./Response.jsx";
 import axios from "axios";
+import { API_ENDPOINTS } from "../config/api.js";
 
 const Main = () => {
   const [isWriting, setIsWriting] = useState(false);
@@ -36,7 +37,7 @@ const Main = () => {
 
     try {
       const response2 = await axios.post(
-        "http://127.0.0.1:5000/generate-itinerary",
+        API_ENDPOINTS.GENERATE_ITINERARY,
         {
           query: input,
         }
